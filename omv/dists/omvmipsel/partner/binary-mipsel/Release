@@ -1,0 +1,7 @@
+Archive: stable
+Version: 3.0
+Component: partner
+Origin: OMV-mipsel
+Label: OMV-mipsel
+Architecture: mipsel
+Description: OMV packages ported to Debian for GnuBee devices

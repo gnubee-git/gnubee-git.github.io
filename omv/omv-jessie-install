@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd /tmp
+wget https://dl.dropboxusercontent.com/u/5888331/omv/modules.`uname -r`.tar.gz
+mkdir -p /lib/modules/`uname -r`
+cd /lib/modules/`uname -r`
+tar xvzf /tmp/modules.`uname -r`.tar.gz
+depmod -a
+
+echo "deb https://dl.dropboxusercontent.com/u/5888331/omv/ erasmus main" > /etc/apt/sources.list.d/omv.list
+apt-get update
+apt-get install openmediavault -y --force-yes
+
+locale-gen "en_US.UTF-8"
+dpkg-reconfigure locales
+
+omv-initsystem

@@ -1,0 +1,7 @@
+Archive: stable
+Version: 2.x
+Component: main
+Origin: OMV-erasmus
+Label: erasmus
+Architecture: mipsel
+Description: OMV Erasmus packages ported to Debian for GnuBee devices

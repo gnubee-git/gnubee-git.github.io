@@ -1,0 +1,36 @@
+Origin: OMV-mipsel
+Label: OMV-mipsel
+Suite: stable
+Codename: omvmipsel
+Version: 3.0
+Date: Thu, 02 Jun 2016 12:52:08 UTC
+Architectures: mipsel
+Components: main partner
+Description: OMV packages ported to Debian for GnuBee devices
+MD5Sum:
+ e28b9772d4e925109c1138c57c39ef63 15213 main/binary-mipsel/Packages
+ b9e595a79ef80ce344c29ca9e9afb66f 5410 main/binary-mipsel/Packages.gz
+ 6cdf78753eb675ec51b30f9c6429d0e2 165 main/binary-mipsel/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-mipsel/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-mipsel/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 partner/binary-mipsel/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 partner/binary-mipsel/Packages.gz
+ fd40faa6fff29e876a76eab9eb1b3c20 168 partner/binary-mipsel/Release
+SHA1:
+ 2d7be00d3f6de53cd3418374ce0154b93295a95b 15213 main/binary-mipsel/Packages
+ 47c82542911b0c29a30ab19c94943ec54506d4a2 5410 main/binary-mipsel/Packages.gz
+ 9af0677e2d61ee5fa74eafc4379a179313f61fa6 165 main/binary-mipsel/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-mipsel/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-mipsel/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 partner/binary-mipsel/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 partner/binary-mipsel/Packages.gz
+ 0536abf9d65b34e5f73554d9af246f344da8a188 168 partner/binary-mipsel/Release
+SHA256:
+ b9abf48fca038706e8dd59fce799cf9e57e6fff07b36adbb87e98410b297f53e 15213 main/binary-mipsel/Packages
+ f1a9c6959dbf359bd1fbe4ff9b98eda817768ad9a15ba849caee35f9dcd9e7f7 5410 main/binary-mipsel/Packages.gz
+ 5b6c821effaab0f3abcdc1c203d27265cde838e93ae3fb1e0d0dda7cefddda5d 165 main/binary-mipsel/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-mipsel/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-mipsel/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 partner/binary-mipsel/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 partner/binary-mipsel/Packages.gz
+ 5f087c0ca15ddd12b5a49f4767be23faac2bf198d07e55defa378f905eb95f57 168 partner/binary-mipsel/Release

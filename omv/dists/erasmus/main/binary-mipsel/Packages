@@ -1,0 +1,623 @@
+Package: folder2ram
+Version: 0.2.4
+Architecture: all
+Maintainer: Alberto Bursi <starshipeleven@hotmail.it>
+Installed-Size: 76
+Depends: debconf (>= 0.5) | debconf-2.0, rsync
+Priority: optional
+Section: admin
+Filename: pool/main/f/folder2ram/folder2ram_0.2.4_all.deb
+Size: 11586
+SHA256: 1b65ba8a5e05321ec0208c3ef155731c432a21463f698970c855806d8ccbad21
+SHA1: beaf0b8999094eeb215c462f3caca60e28382d9f
+MD5sum: b28ac14784da7619fe4bc7d6e0ccbc6b
+Description: script-based utility to manage tmpfs folders
+ It syncs data on power up, on shutdown, and on request.
+ Mostly useful for long-term usage of flash drives as system drive.
+
+Package: libjs-extjs5
+Version: 5.1.1.451
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 66908
+Homepage: http://www.sencha.com
+Priority: extra
+Section: web
+Filename: pool/main/libj/libjs-extjs5/libjs-extjs5_5.1.1.451_all.deb
+Size: 3793806
+SHA256: e8ee95dcf4214424e1c7fd20ea34fc8abe0376f4f36a7247b703d4f45070c1e5
+SHA1: c585d550de9665243a22ed0091542cc67f218d83
+MD5sum: 900e3270b81e8871e47a1424e3fefdab
+Description: Ext JS is a cross-browser JavaScript library for building rich internet applications.
+ ExtJS is a JavaScript library for building interactive web applications using
+ techniques such as Ajax, DHTML and DOM scripting.
+
+Package: mergerfs
+Version: 2.13.1-1-g30cdfa6~debian-jessie
+Architecture: mipsel
+Maintainer: Antonio SJ Musumeci <trapexit@spawn.link>
+Installed-Size: 266
+Depends: libc6 (>= 2.19), libfuse2 (>= 2.9), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9)
+Homepage: http://github.com/trapexit/mergerfs
+Priority: optional
+Section: utils
+Filename: pool/main/m/mergerfs/mergerfs_2.13.1-1-g30cdfa6~debian-jessie_mipsel.deb
+Size: 86056
+SHA256: a2e019a183555df5dae13ef8d1eee95e81b8bd3cfeb6036dd25b8f8cddbb6eb9
+SHA1: 9a48c98c8f892f763f82c00d4dd7ead21c69afce
+MD5sum: 8ad499546d4dff30b8a47a4954ec266d
+Description: another FUSE union filesystem
+ mergerfs is similar to mhddfs, unionfs, and aufs. Like mhddfs in that it too
+ uses FUSE. Like aufs in that it provides multiple policies for how to handle
+ behavior.
+
+Package: mywebsql
+Version: 3.6-omv4
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 4085
+Depends: php5, php5-mysqlnd, php5-pgsql, php5-sqlite
+Priority: optional
+Section: net
+Filename: pool/main/m/mywebsql/mywebsql_3.6-omv4_all.deb
+Size: 1237208
+SHA256: b143b71af3a675e605fce3149a22b7a962a317c529d5cbc965009a82c3f48b8d
+SHA1: 3c81adf44f335b75a3224a7e97ba0db2f1d98736
+MD5sum: 81b76dfa2fa7dc1d660712d616f4f26d
+Description: Web-based database manager for MySQL, SQLite and PostgreSQL.
+ MyWebSQL is an open source, web based, WYSIWYG mysql client written in PHP. It
+ utilizes modern day technologies and browsers to provide a fast, intuitive
+ querying and editing interface to the MySQL databases.
+
+Package: omvextras-common
+Version: 3.0.1
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 131
+Depends: openmediavault (>= 3.0.15), php-symfony-class-loader, php5-cli
+Priority: optional
+Section: net
+Filename: pool/main/o/omvextras-common/omvextras-common_3.0.1_all.deb
+Size: 6604
+SHA256: 4b56f27f57ecbb9c7f2046cf50d1392bdc1a3df71cc14935c0a5c7ddb71b2e54
+SHA1: 15c50b25a91f833e916f5c744cf900860dfad1b7
+MD5sum: 70b872cb19f620db1c98413fede3f164
+Description: Shared files/libraries between various OpenMediaVault plugins.
+ Package containing shared files/libraries between various OpenMediaVault
+ plugins.
+
+Package: openmediavault
+Version: 3.0.65
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 6437
+Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault/openmediavault_3.0.65_all.deb
+Size: 911954
+SHA256: 007bdb2fd0320cd436dc1264c8b7d52715fadeba75484c39acef5b6ea9089203
+SHA1: 585b7d1c78ee3a69f738479743edb22641935fd5
+MD5sum: 90f4db9cd3f4af5e40e2e4e417ebf57d
+Description: Open network attached storage solution
+ OpenMediaVault is a small and simple to use network attached storage system with
+ a smart WebGUI.
+
+Package: openmediavault-clamav
+Version: 3.2.10
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 425
+Depends: openmediavault (>= 3.0.60), clamav-daemon, clamav-freshclam, clamdscan, init-system-helpers
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: utils
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_3.2.10_all.deb
+Size: 41872
+SHA256: 3992de5f6fe8d3c174004aa6cd59496398217bc7361ef876aac7692028732f58
+SHA1: 3de006c75496267aaef9fe36ae807abc027f8839
+MD5sum: e762f1c0f1d4a09ec49b01fd7fc50cf9
+Description: OpenMediaVault ClamAV plugin
+ Clam AntiVirus is an anti-virus toolkit for Unix.
+Plugin-Section: utilities
+
+Package: openmediavault-flashmemory
+Version: 3.4.3
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 304
+Depends: folder2ram (>= 0.2.4), openmediavault (>= 3.0.40)
+Conflicts: fs2ram
+Replaces: fs2ram
+Provides: fs2ram
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_3.4.3_all.deb
+Size: 15518
+SHA256: be5abd40ae777a24a2bfc50ed40975db52375ec180317cbe466a5941c325ef56
+SHA1: 7500a5f3e595d4f368d692d204de159011a75253
+MD5sum: 20aa7dfc00322e46af0db27f93eaa0ee
+Description: folder2ram plugin for OpenMediaVault
+ folder2ram manages temporary file systems across reboots, to decrease writes on permanent storage.
+ This allows the installation of OMV on flash thumb drives and SD cards.
+Plugin-Section: filesystems
+
+Package: openmediavault-forkeddaapd
+Version: 3.1.6
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 260
+Depends: openmediavault (>= 3.0.60), forked-daapd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_3.1.6_all.deb
+Size: 17442
+SHA256: 667f655e91ef5eb7e194fb9097b5473c9238f71e93a48dd1b57c2cf690f7438c
+SHA1: 41ea81da917e1848a0c470e5a9cc3f7563ef0492
+MD5sum: e2d99f88df5dba3e9051695a97fa509b
+Description: OpenMediaVault forked-daapd (DAAP server) plugin
+ forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
+ media server.
+Plugin-Section: multimedia
+
+Package: openmediavault-iscsitarget
+Version: 3.1.5
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 451
+Depends: openmediavault (>= 3.0.60), iscsitarget, iscsitarget-dkms, linux-headers-amd64 | linux-headers-armel | linux-headers-armhf | linux-headers-i386 | linux-headers-mips | linux-headers-mipsel | linux-headers-powerpc | linux-headers-ppc64el | linux-headers-s390 | linux-headers-s390x | linux-headers-sparc
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-iscsitarget/openmediavault-iscsitarget_3.1.5_all.deb
+Size: 48228
+SHA256: 37e3af4e4583cf8781481e0fdab23df4fbbead8e7cf042df0d8a62fa44552d68
+SHA1: 716146fffb6e59fdc1ae39fb9447be1549a249a9
+MD5sum: 457b743422acf4b9e2a1981ff573ff18
+Description: OpenMediaVault iSCSI Enterprise Target plugin
+ iSCSI Enterprise Target is for building an iSCSI storage system on Linux.
+Plugin-Section: filesystems
+
+Package: openmediavault-keyring
+Version: 1.0
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 51
+Depends: gpgv
+Recommends: gnupg
+Homepage: http://www.openmediavault.org
+Priority: important
+Section: misc
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0_all.deb
+Size: 9758
+SHA256: bc1aa05839b01ad7c2cd148ef54506c5f9b57f5e23f182b0618e298c31576459
+SHA1: 5945f84755c9d4f0fb01fdd33b1a653c74c2c146
+MD5sum: 02e3df7c1e9fe59a943a77e22c8efcc1
+Description: GnuPG archive keys of the OpenMediaVault archive
+ The OpenMediaVault project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: openmediavault-ldap
+Version: 3.1.5
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 308
+Depends: openmediavault (>= 3.0.60), libnss-ldap, libpam-ldap
+Conflicts: openmediavault-ad
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-ldap/openmediavault-ldap_3.1.5_all.deb
+Size: 22660
+SHA256: 6df3b18f0e230ffdc6b549ed0ad821bc54e5f43149f1845fb2a4f3b29698dac1
+SHA1: 543c928ce8b469b3559e549606344a6968678175
+MD5sum: 2a4485c01f4621dcc610da60004de980
+Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
+ LDAP is an application protocol for accessing and maintaining distributed
+ directory information services over an Internet Protocol network. This
+ plugin adds user authentication support via LDAP.
+Plugin-Section: network
+
+Package: openmediavault-lvm2
+Version: 3.1.4
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 344
+Depends: openmediavault (>= 3.0.60), lvm2
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.1.4_all.deb
+Size: 26376
+SHA256: 6dd5dfa4a4bd41ad0d7c062bfb760b17f75beeee2cd7a0ac84f39747ea063d2a
+SHA1: f17d08a0cf02ebbca13a70c69917aaabcddfaf32
+MD5sum: 23856470e839c709ce7ff08b29ebc11c
+Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
+ LVM supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of volume
+ groups can be allocated to logical volumes, which are accessed as regular
+ block devices.
+Plugin-Section: filesystems
+
+Package: openmediavault-minidlna
+Version: 3.3.6
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 368
+Depends: minidlna (>= 1.1.2), openmediavault (>= 3.0.40)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_3.3.6_all.deb
+Size: 21292
+SHA256: b35c247d86485299eaf720b13b64368b6e6a6e7eda70300c0fc6a4369528602c
+SHA1: 5f6871f8a509679eedfc3ed751a692e08038cbb5
+MD5sum: ad9916de295b744b3f816cd6ffed12bb
+Description: OpenMediaVault miniDLNA (DLNA server) plugin
+ lightweight DLNA/UPnP-AV server targeted at embedded systems
+ MiniDLNA (aka ReadyDLNA) is server software with the aim of being
+ fully compliant with DLNA/UPnP-AV clients.
+ .
+ The minidlna daemon serves media files (music, pictures, and video)
+ to clients on your network.  Example clients include applications
+ such as totem and xbmc, and devices such as portable media players,
+ smartphones, and televisions.
+ .
+ MiniDLNA is a simple, lightweight alternative to mediatomb, but has
+ fewer features. It does not have a web interface for administration
+ and must be configured by editing a text file.
+Plugin-Section: multimedia
+
+Package: openmediavault-mysql
+Version: 3.0.4
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 360
+Depends: dbconfig-common, openmediavault (>= 3.0.40), mysql-server | mariadb-server, mywebsql
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-mysql/openmediavault-mysql_3.0.4_all.deb
+Size: 20580
+SHA256: 53e9365207e88c9510c8e425e50f5ced9ec5f9e7d672aa6bc78d5fe83d73838b
+SHA1: f262346bbd1454b4a67c05707aa78eba6ea52964
+MD5sum: 0f5e7d6c3c296d2a286eebd70e3780f9
+Description: MySQL plugin for OpenMediaVault.
+ MySQL is an open source database server. The plugin allows you to
+ specify a share for databases and reset the MySQL root password.
+Plugin-Section: network
+
+Package: openmediavault-netatalk
+Version: 3.2.7
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 363
+Depends: openmediavault (>= 3.0.60), netatalk (>= 3.1.9)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_3.2.7_all.deb
+Size: 35070
+SHA256: 69000da5e58a7b6c42805c78109e10ea3cfde79032b304e9c78c15999df5f04a
+SHA1: 9bc85f410e4b82aa32e832182c259cfed7173ba8
+MD5sum: ffec7f1319deb32f415842b316f50493
+Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
+ Netatalk is an implementation of the AppleTalk Protocol Suite.
+Plugin-Section: sharing
+
+Package: openmediavault-nginx
+Version: 3.0.10
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 518
+Depends: nginx, openmediavault (>= 3.0.40), php5-fpm
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-nginx/openmediavault-nginx_3.0.10_all.deb
+Size: 34654
+SHA256: 2e0c6acf0c58944423b160ecb72133eed4673707fdd484c59bd51dea99dcb00f
+SHA1: 48df0377c89f0dba3c80d38e802c0fa9b7e06c8f
+MD5sum: aecbf368ace42b683cb59679d91567ca
+Description: Nginx plugin for OpenMediaVault.
+ Nginx ("engine X") is a high-performance web server. It can be used to serve
+ your web pages.
+ .
+ This plugin also provides PHP support through php-fpm (http://php-fpm.org).
+Plugin-Section: network
+
+Package: openmediavault-nut
+Version: 3.2.9
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 360
+Depends: openmediavault (>= 3.0.60), nut (>= 2.6.4), udev
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.9_all.deb
+Size: 29770
+SHA256: f3ed5aa6daf3e833e059d5613fef84f835d29050038161167337f706c5be057d
+SHA1: 2c12a89de40e1116f269c56985798fce50d49762
+MD5sum: fad79927eae67712c9e6fe9eacb8bf16
+Description: OpenMediaVault Network UPS Tools (NUT) plugin
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Version: 3.4.21
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 503
+Depends: apt-transport-https, openmediavault (>= 3.0.47)
+Breaks: openmediavault (<< 3.0.13)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_3.4.21_all.deb
+Size: 47148
+SHA256: 786d344395172983cb422fdeee31966c69d17556eecd868c2482c163eba0e940
+SHA1: 5750770a92b12dfa234dc54d7881868bad69388e
+MD5sum: f09cbc19fd8176b9f9843f0e70d86b5e
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-route
+Version: 3.1.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 239
+Depends: openmediavault (>= 3.0.60)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-route/openmediavault-route_3.1.3_all.deb
+Size: 13312
+SHA256: 8ee184b12a4e65a06cac70037f7af094d584cc153da0e9d374f2d924c2965216
+SHA1: 92c547581278a9e8ceacfd6c67aba6a0b793aa7d
+MD5sum: 59e7beea5538e4680f9b0fab66417f7a
+Description: OpenMediaVault IP routing table plugin
+ Adds the ability to manipulate the IP routing table via WebGUI.
+Plugin-Section: network
+
+Package: openmediavault-sabnzbd
+Version: 3.2.4
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 176
+Depends: python, openmediavault (>= 3.0.15), git, python-cheetah, python-configobj, python-feedparser, par2-tbb | par2, python-openssl, python-yenc, unzip, python-support, unrar | unrar-free, curl
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-sabnzbd/openmediavault-sabnzbd_3.2.4_all.deb
+Size: 18488
+SHA256: ad9f02bf014b24fd88aac0facbd7ee46842e81fa0e31ff3b1413a06826a8a489
+SHA1: bb609b7d576c76d65f72defc347f8848c36ba62e
+MD5sum: f9017b5acd1ef20f2a26dbe28e0db82b
+Description: SABnzbd plugin for OpenMediaVault.
+ SABnzbd is a web-based binary newsgrabber written in Python, with support for
+ the popular nzb file format. It greatly simplifies the process of downloading
+ from usenet, thanks to a friendly web-based, fully customizable user interface
+ and advanced built-in post-processing options including the ability to
+ automatically verify, repair, extract and clean up downloaded posts.
+Plugin-Section: downloaders
+
+Package: openmediavault-shairport
+Version: 3.2.8
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 255
+Depends: openmediavault (>= 3.0.60), shairport-sync (>= 2.4.1), alsa-utils, init-system-helpers
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_3.2.8_all.deb
+Size: 15240
+SHA256: 334b0b915648d5397cd5feec5cbd1448c906bd0e52e980eba98331bec9fd3ede
+SHA1: bcbfea8c62bccf098e07f0ed822b5b58a8276d83
+MD5sum: ed05ae60cc56a9d651ab431af7bdd07c
+Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
+ Shairport emulates an AirPort Express for the purpose of streaming
+ music from iTunes and compatible iPods and iPhones. It implements a
+ server for the Apple RAOP protocol. ShairPort does not support AirPlay
+ v2 (video and photo streaming).
+Plugin-Section: multimedia
+
+Package: openmediavault-sickbeard
+Version: 3.2.2
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 234
+Depends: openmediavault (>= 3.0.13), python, python-openssl, python-software-properties, python-dev, python-cheetah, libssl-dev, git, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-sickbeard/openmediavault-sickbeard_3.2.2_all.deb
+Size: 25408
+SHA256: 12fd075232bc32d2bf91e208e96b29fd17b3a9ef7bc9e19bf257c3476708362e
+SHA1: 4929063ff2930f03623dbbe3c14995caebb4a969
+MD5sum: 5c818c9099a69e35fff5f3a6d4bc19bf
+Description: OpenMediaVault Sick Beard plugin
+ Sick Beard is a PVR for newsgroup users (with limited torrent support).
+ It watches for new episodes of your favorite shows and when they are
+ posted it downloads them, sorts and renames them, and optionally
+ generates metadata for them. It currently supports NZBs.org, NZBMatrix,
+ NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and
+ retrieves show information from theTVDB.com and TVRage.com.
+ .
+ Backup your database before installing!!
+Plugin-Section: downloaders
+
+Package: openmediavault-snapraid
+Version: 3.6.2
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 535
+Depends: openmediavault (>= 3.0.40), snapraid (>= 9.1)
+Homepage: http://omv-extras.org/simple/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_3.6.2_all.deb
+Size: 40478
+SHA256: e78476538826f84efe9948e7edb40fcf00f868920a45098135223d0185e841b4
+SHA1: bd9111cca8f6a69bbd6c838bad951946be8a1296
+MD5sum: 7bf5f780b6bc77feec2db3e8ca4a0c0e
+Description: snapraid plugin for OpenMediaVault.
+ SnapRAID is a backup program for disk arrays. It stores parity
+ information of your data and it's able to recover from up to two
+ disk failures.
+ .
+ SnapRAID is mainly targeted for a home media center, with a lot of
+ big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, other features of
+ SnapRAID are:
+ * All your data is hashed to ensure data integrity and to avoid
+   silent corruption.
+ * If the failed disks are too many to allow a recovery, you lose the
+   data only on the failed disks. All the data in the other disks is safe.
+ * If you accidentally delete some files in a disk, you can recover them.
+ * You can start with already filled disks.
+ * The disks of the array can have different sizes.
+ * You can add disks at any time.
+ * It doesn't lock-in your data. You can stop using SnapRAID at any time
+   without the need to reformat or move data.
+Plugin-Section: filesystems
+
+Package: openmediavault-transmissionbt
+Version: 3.0.9
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 711
+Depends: omvextras-common, openmediavault (>= 3.0.40), transmission-cli, transmission-daemon
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-transmissionbt/openmediavault-transmissionbt_3.0.9_all.deb
+Size: 51390
+SHA256: 338b0c45f0622683f26a3dae59cc6a8d51d2c2c185538f966c6f0332c1c733ab
+SHA1: f0e5b4544385a7fe5b4b2e7c221a7f8b28686f09
+MD5sum: 551970cb90592f2f5c8621dd8dcf810e
+Description: OpenMediaVault Transmission (BitTorrent client) plugin.
+ Transmission is a simple BitTorrent client that features a very simple and
+ intuitive interface.
+Plugin-Section: downloaders
+
+Package: openmediavault-unionfilesystems
+Version: 3.1.3
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 383
+Depends: aufs-tools, mergerfs, mhddfs, openmediavault (>= 3.0.21), php5-cli
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-unionfilesystems/openmediavault-unionfilesystems_3.1.3_all.deb
+Size: 21526
+SHA256: d42065c2dfb805d10030421efe0f6945d856f66d0920a64df1a5754350c9aac0
+SHA1: 8981ed610f2f28e58e831cbdfb7e899965f9cfdc
+MD5sum: a9e61c2c992ff361f4d83328b2f70aa5
+Description: Union filesystems plugin for OpenMediaVault.
+ Makes it possible to mount drives under a single mountpoint with an union
+ filesystem such as aufs, mhddfs and mergerfs.
+Plugin-Section: filesystems
+
+Package: openmediavault-usbbackup
+Version: 3.2.15
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 377
+Depends: rsync, openmediavault (>= 3.0.60)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_3.2.15_all.deb
+Size: 37366
+SHA256: 7cfdb1e60c4dc2c55d5ab8ddff2699fd28a386c7badcbfb5348d42c6379fcab5
+SHA1: 650a6149ff178da0f4a8f3584f7cc5d25f486889
+MD5sum: 94f2ed41c9d740334941e25b671192f5
+Description: OpenMediaVault USB/eSATA backup plugin
+ Automatically synchronise a shared folder to an USB/eSATA device and vice
+ verse when it is plugged in.
+Plugin-Section: backup
+
+Package: php5-pam
+Version: 1.0.3-4
+Architecture: mipsel
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 60
+Depends: libc6 (>= 2.2), libpam0g (>= 0.99.7.1), phpapi-20131226
+Priority: optional
+Section: web
+Filename: pool/main/p/php5-pam/php5-pam_1.0.3-4_mipsel.deb
+Size: 7510
+SHA256: ca5dc274818effff7a633283dbbf0c146851c9ce939136642f9d581f59caf8b5
+SHA1: cecbbc20470f166d867208c9196b584c1bdca239
+MD5sum: 1cebf89e2ed1193c23ef0d19f46749b9
+Description: pam module for PHP 5
+ PAM integration
+ .
+ This extension provides PAM (Pluggable Authentication Modules)
+ integration. PAM is a system of libraries that handle the
+ authentication tasks of applications and services. The library
+ provides a stable API for applications to defer to for authentication
+ tasks.
+
+Package: proftpd-mod-vroot
+Version: 0.9.3-1
+Architecture: mipsel
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 86
+Depends: proftpd-basic (>= 1.3.5), libc6 (>= 2.4), proftpd-abi-1.3.5
+Breaks: proftpd-basic (<< 1.3.4)
+Homepage: http://www.castaglia.org/proftpd/modules/mod_vroot.html
+Priority: optional
+Section: net
+Filename: pool/main/p/proftpd-mod-vroot/proftpd-mod-vroot_0.9.3-1_mipsel.deb
+Size: 14814
+SHA256: 042cc5af90e6be488b6b0e2156aca7adc44748f4330d440b1a1c5051820e6eee
+SHA1: b97013a309075c8d903e0c746c407c598576c529
+MD5sum: ee1cfb29dec16a69a7c2682bc0bcff5f
+Description: ProFTPD module mod_vroot
+ The purpose of this module to is to implement a virtual chroot
+ capability that does not require root privileges.
+ The mod_vroot module provides this capability by using ProFTPD's
+ FS API. It also allows one to map a directory out of the user chroot
+ as an alias in the chroot for sharing common directories.
+
+Package: snapraid
+Version: 10.0-1
+Architecture: mipsel
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 528
+Depends: libc6 (>= 2.17)
+Homepage: http://snapraid.sourceforge.net/
+Priority: extra
+Section: utils
+Filename: pool/main/s/snapraid/snapraid_10.0-1_mipsel.deb
+Size: 251980
+SHA256: 9d9c373c97081029612a1a3e0556d88fd9fdbacbe3027538e7c66220d983e132
+SHA1: c12d025b97a1f940733dcc29086310da48ce6047
+MD5sum: 69131b83b4728ca466cfa3741e6bc056
+Description: SnapRAID is a backup program for disk arrays.
+ SnapRAID is a backup program for disk arrays.
+ .
+ SnapRAID stores redundancy information in the disk array, and it allows recovering from up to two disk failures.
+ .
+ SnapRAID is mainly targeted for a home media center, where you have a lot of big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, the other features of SnapRAID are:
+ - You can start using SnapRAID with already filled disks.
+ - The disks of the array can have different sizes.
+ - You can add more disks at any time.
+ - If you accidentally delete some files in a disk, you can recover them.
+ - If more than two disks fail, you lose the data only on the failed disks. All the data in the other disks is safe.
+ - It doesn't lock-in your data. You can stop using SnapRAID at any time without the need to reformat or move data.
+ - All your data is hashed to ensure data integrity and avoid silent corruption.
+

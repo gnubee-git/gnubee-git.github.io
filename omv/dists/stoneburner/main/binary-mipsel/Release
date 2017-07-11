@@ -1,0 +1,7 @@
+Archive: stable
+Version: 2.x
+Component: main
+Origin: OMV-mipsel
+Label: OMV-mipsel
+Architecture: mipsel
+Description: OMV StoneBurner packages ported to Debian for GnuBee devices

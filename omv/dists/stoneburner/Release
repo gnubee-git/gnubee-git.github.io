@@ -1,0 +1,27 @@
+Origin: OMV-mipsel
+Label: OMV-mipsel
+Suite: stable
+Codename: stoneburner
+Version: 2.x
+Date: Thu, 16 Jun 2016 19:49:21 UTC
+Architectures: mipsel
+Components: main
+Description: OMV StoneBurner packages ported to Debian for GnuBee devices
+MD5Sum:
+ f1b6f42f78ecd0df78923c40ef4cf108 15209 main/binary-mipsel/Packages
+ 6d01a3c4f78e1074617049c57cacb140 5417 main/binary-mipsel/Packages.gz
+ 932a85d8315e289776f13fdec7f99cf7 177 main/binary-mipsel/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-mipsel/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-mipsel/Packages.gz
+SHA1:
+ ef01536f79cef6beacaf71569c4db9fd804093ee 15209 main/binary-mipsel/Packages
+ 94700519b4103c465bf25f8e676f11ec8fab9ece 5417 main/binary-mipsel/Packages.gz
+ e6a842d3b88f330a9033fe93e9e770bea47f38c7 177 main/binary-mipsel/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-mipsel/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-mipsel/Packages.gz
+SHA256:
+ 2884b4759ec12ae22659c5c7d3282162d2ebaa922202be0e694c42024fff6248 15209 main/binary-mipsel/Packages
+ 5bebfcedbf970aad0b6c70df24bc461673cfd079f3e5a7e650611177e9bbe60d 5417 main/binary-mipsel/Packages.gz
+ 9b44c3959cfc5eb012e1b653e5c6e5becb78d448c741ef7ed257f5053128ea30 177 main/binary-mipsel/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-mipsel/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-mipsel/Packages.gz

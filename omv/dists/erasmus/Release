@@ -1,0 +1,27 @@
+Origin: OMV-erasmus
+Label: erasmus
+Suite: stable
+Codename: erasmus
+Version: 3.x
+Date: Wed, 01 Mar 2017 21:11:12 UTC
+Architectures: mipsel
+Components: main
+Description: OMV Erasmus packages ported to Debian for GnuBee devices
+MD5Sum:
+ 7968162b43f8809aeb5f33a55877248b 26747 main/binary-mipsel/Packages
+ ad29f606ba6f0555485f87aa13c80270 9360 main/binary-mipsel/Packages.gz
+ 48b62220a8772f8547740dd6cd353ae3 171 main/binary-mipsel/Release
+ 05983e08e42e3c927d1aa670c52bc83e 1378 main/debian-installer/binary-mipsel/Packages
+ 157f80f4c2f776444ada47159908f215 669 main/debian-installer/binary-mipsel/Packages.gz
+SHA1:
+ c91d0bbb1dd155af5cd344d85d9b27a7b3b0c2cc 26747 main/binary-mipsel/Packages
+ d22fecfefb329e9176922e0d0fd8f9f8595c7d06 9360 main/binary-mipsel/Packages.gz
+ b843d3c3924bf2add960eb9a3d5916f57d01e9eb 171 main/binary-mipsel/Release
+ 33ceaaf2bae41b93d9cdbd48417d0fa74c072324 1378 main/debian-installer/binary-mipsel/Packages
+ 70ce47bb7342e1c4f0a0b6d08e551ecdfdf8d08f 669 main/debian-installer/binary-mipsel/Packages.gz
+SHA256:
+ 3aa76bf094bd5be7caaafa3b27cc2b7acac9fca0263afe4bee95bf82ab83c613 26747 main/binary-mipsel/Packages
+ 8b7669c9ab3afbbc7f399f3eedde94c23fcc9c3e7e54b7cd1aceaf7174841d0e 9360 main/binary-mipsel/Packages.gz
+ 2b820cd65bb96544131fb660e31b90aa2479fa9b1c10192075523668f641a312 171 main/binary-mipsel/Release
+ e04917e709ea66339d396352e2837e65b6a16fc3cd7294cbbf0c4b8413db0771 1378 main/debian-installer/binary-mipsel/Packages
+ 4d9bd108906785c0ae8e529f9b884cdc547787eff03e1a5315555fddb7956385 669 main/debian-installer/binary-mipsel/Packages.gz
