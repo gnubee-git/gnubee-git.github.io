@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /tmp
+wget https://gnubee-git.github.io/debian/modules.`uname -r`.tar.gz
+mkdir -p /lib/modules/`uname -r`
+cd /lib/modules/`uname -r`
+tar xvzf /tmp/modules.`uname -r`.tar.gz
+depmod -a
+
