@@ -6,6 +6,9 @@ wget --no-check-certificate gnubee-git.github.io/debian/debian-jessie-install
 chmod +x  debian-jessie-install
 ./debian-jessie-install
 
+user : root 
+password : GnuBee
+
 # After booting into Debian, install modules:
 cd
 wget gnubee-git.github.io/debian/debian-modules-install
