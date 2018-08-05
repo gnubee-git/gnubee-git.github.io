@@ -9,7 +9,13 @@ failed(){
 debian_install(){
   mkdir -p /tmp/newroot
   mount -t ext4 ${1} /tmp/newroot
-  debootstrap --arch=mipsel --include=vim,openssh-server,ntpdate,cron,locales,udev,ca-certificates,apt-transport-https,vlan jessie /tmp/newroot http://httpredir.debian.org/debian || failed debootstrap
+  debootstrap --arch=mipsel --include=vim,openssh-server,ntpdate,cron,locales,udev,ca-certificates,apt-transport-https,vlan jessie /tmp/newroot http://httpredir.debian.org/debian
+  if [[ $? -ne 0 ]]
+  then
+    umount /tmp/newroot
+    tune2fs -L BADINSTALL ${1}
+    failed debootstrap
+  fi
 }
 
 debian_fix(){
@@ -19,16 +25,16 @@ auto lo
 iface lo inet loopback
 
 auto eth0.1
-iface eth0.1 inet static   
+iface eth0.1 inet static
     address 192.168.1.1
-    netmask 255.255.255.0  
+    netmask 255.255.255.0
 
 auto eth0.2
 iface eth0.2 inet dhcp
 
 EOF
 
-  mkdir /tmp/newroot/rom   
+  mkdir /tmp/newroot/rom
   mknod /tmp/newroot/dev/console c 5 1
   mknod /tmp/newroot/dev/ttyS0 c 4 64
   mknod /tmp/newroot/dev/tty0 c 4 0
@@ -42,15 +48,15 @@ EOF
   echo "LABEL=GNUBEE-ROOT /  ext4  noatime,errors=remount-ro 0  1" >> /tmp/newroot/etc/fstab
   sed -i "s/^127.0.0.1.*/& gnubee-pc1 gnubee-pc1.gnubee/" /tmp/newroot/etc/hosts
   sed -i "s/^PermitRootLogin.*/PermitRootLogin yes/" /tmp/newroot/etc/ssh/sshd_config
-  sync 
- 
+  sync
+
 }
 
 
 format_partition(){
    echo -n "Partition will be formatted, please type CONFIRM if you agree: "
    read IN
-   if [[ $IN == "CONFIRM" ]] 
+   if [[ $IN == "CONFIRM" ]]
    then
       umount ${1}
       echo "Formatting ${1}, please wait..."
